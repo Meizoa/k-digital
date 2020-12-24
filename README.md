@@ -1,3 +1,3 @@
 # k-digital
 
-gdgdgdgddggdg
+과제나 숙제들 모아놓는 

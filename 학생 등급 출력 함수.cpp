@@ -3,7 +3,7 @@
 int studentinput()
 {
 	int student_cnt;
-	printf("ÇĞ»ı ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("í•™ìƒ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf_s("%d", &student_cnt);
 
 	return student_cnt;
@@ -13,35 +13,35 @@ int scoreinput(int write, int word, int xecel, int ppt, int current_student)
 {
 	int sum;
 
-	printf("%d¹ø ÇĞ»ı ÇÊ±â Á¡¼ö(400) : ", current_student);
+	printf("%dë²ˆ í•™ìƒ í•„ê¸° ì ìˆ˜(400) : ", current_student);
 	scanf_s("%d", &write);
 	while (!(write <= 400 && write >= 0))
 	{
-		printf("%d¹ø ÇĞ»ı ÇÊ±â Á¡¼ö(400) : ", current_student);
+		printf("%dë²ˆ í•™ìƒ í•„ê¸° ì ìˆ˜(400) : ", current_student);
 		scanf_s("%d", &write);
 	}
 
-	printf("%d¹ø ÇĞ»ı ¿öµå Á¡¼ö(200) : ", current_student);
+	printf("%dë²ˆ í•™ìƒ ì›Œë“œ ì ìˆ˜(200) : ", current_student);
 	scanf_s("%d", &word);
 	while (!(word <= 200 && word >= 0))
 	{
-		printf("%d¹ø ÇĞ»ı ¿öµå Á¡¼ö(200) : ", current_student);
+		printf("%dë²ˆ í•™ìƒ ì›Œë“œ ì ìˆ˜(200) : ", current_student);
 		scanf_s("%d", &word);
 	}
 
-	printf("%d¹ø ÇĞ»ı ¿¢¼¿ Á¡¼ö(200) : ", current_student);
+	printf("%dë²ˆ í•™ìƒ ì—‘ì…€ ì ìˆ˜(200) : ", current_student);
 	scanf_s("%d", &xecel);
 	while (!(xecel <= 200 && xecel >= 0))
 	{
-		printf("%d¹ø ÇĞ»ı ¿¢¼¿ Á¡¼ö(200) : ", current_student);
+		printf("%dë²ˆ í•™ìƒ ì—‘ì…€ ì ìˆ˜(200) : ", current_student);
 		scanf_s("%d", &xecel);
 	}
 
-	printf("%d¹ø ÇĞ»ı ppt Á¡¼ö(200) : ", current_student);
+	printf("%dë²ˆ í•™ìƒ ppt ì ìˆ˜(200) : ", current_student);
 	scanf_s("%d", &ppt);
 	while (!(ppt <= 200 && ppt >= 0))
 	{
-		printf("%d¹ø ÇĞ»ı ppt Á¡¼ö(200) : ", current_student);
+		printf("%dë²ˆ í•™ìƒ ppt ì ìˆ˜(200) : ", current_student);
 		scanf_s("%d", &ppt);
 	}
 	current_student++;
@@ -65,10 +65,10 @@ void scorecheck(int sum, int* a, int* b, int* c, int* d)
 }
 void scoreoutput(int* a, int* b, int* c, int* d)
 {
-	printf("Aµî±Ş : %d\n", *a);
-	printf("Bµî±Ş : %d\n", *b);
-	printf("Cµî±Ş : %d\n", *c);
-	printf("Dµî±Ş : %d\n", *d);
+	printf("Aë“±ê¸‰ : %d\n", *a);
+	printf("Bë“±ê¸‰ : %d\n", *b);
+	printf("Cë“±ê¸‰ : %d\n", *c);
+	printf("Dë“±ê¸‰ : %d\n", *d);
 }
 
 int main()

@@ -1,4 +1,3 @@
-//test
 #include <stdio.h>
 
 int studentinput()
